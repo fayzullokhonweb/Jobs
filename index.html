@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobs | list</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="body">
+    <div class="top"></div>
+
+    <!-- <div class="filter-all container">
+        <template id="filter-all">
+          <span class="job-list__filter__item">
+            <span class="filter-text">Frontend</span>
+            <span class="filter-icon">
+              <img src="./images/icon-remove.svg" alt="">
+            </span>
+          </span>
+        </template>
+    </div>
+       -->
+    <main>
+      <section>
+        <div class="container">
+          <ul id="job-list">
+            <template id="job-list-template">
+              <li class="job-list__item">
+                <img
+                  class="job-list__img"
+                  src="https://placehold.co/88x88"
+                  alt=""
+                  width="88"
+                  height="88"
+                />
+                <div class="job-list__info">
+                  <div class="job-list__status">
+                    <p class="job-list__company">Photosnap</p>
+                    <p class="job-list__status__new">NEW!</p>
+                    <p class="job-list__featured">FEATURED</p>
+                  </div>
+                  <h2 class="job-list__position">Senior Frontend Developer</h2>
+                  <div class="job-list__about">
+                    <span class="job-list__posted">1d ago</span>
+                    <span class="circle"></span>
+                    <span class="job-list__contract">Full Time</span>
+                    <span class="circle"></span>
+                    <span class="job-list__location">USA only</span>
+                  </div>
+                </div>
+
+                <div class="job-list__filter">
+                  <template id="filtered-template">
+                    <span class="job-list__filter__item"></span>
+                  </template>
+                </div>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
